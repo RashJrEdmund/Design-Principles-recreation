@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 const StyledNavBar = styled.nav`
   background-color: transparent;
-  color: #000;
+  color: #fff;
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
