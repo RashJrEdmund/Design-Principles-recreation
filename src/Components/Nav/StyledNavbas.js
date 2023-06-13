@@ -39,15 +39,32 @@ const StyledNavBar = styled.nav`
   .cta {
     button {
       background-color: transparent;
-      color: #000;
+      color: #fff;
       font-weight: 600;
       font-size: 17px;
       padding: 12px 30px;
+      border: 1px solid transparent;
+      transition: 300ms;
 
-      &:nth-of-type(2) {
+      &.login_btn {
+        border-bottom: 1px solid #fff;
+        border-left: 1px solid #fff;
+
+        &:hover {
+          border-top: 1px solid #fff;
+          border-right: 1px solid #fff;
+          color: #ffa500;
+        }
+      }
+
+      &.signup_btn {
         background-color: #000;
-        color: #fff;
         margin: 0 0 0 20px;
+
+        &:hover {
+          background-color: #000000cc;
+          color: #ffa500;
+        }
       }
     }
   }

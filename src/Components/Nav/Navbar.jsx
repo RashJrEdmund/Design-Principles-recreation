@@ -6,6 +6,7 @@ export default function Navbar() {
     <StyledNavBar>
       <section className="section_1">
         <h1 id="logo">Logo</h1>
+
         <ul>
           <li>Home</li>
           <li>Features</li>
