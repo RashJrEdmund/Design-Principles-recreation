@@ -9,7 +9,7 @@ const StyledLandingMain = styled.section`
   align-items: flex-start;
   justify-content: space-between;
   padding: 2rem 0;
-  gap: 20px;
+  gap: 40px;
 
   .col_1 {
     display: flex;
@@ -45,7 +45,7 @@ const StyledLandingMain = styled.section`
 
     .image {
       width: 100%;
-      background-image: url('https://e0.pxfuel.com/wallpapers/913/585/desktop-wallpaper-luffy-dark-dark-luffy.jpg');
+      background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       min-height: 550px;
