@@ -38,5 +38,9 @@
   {
     "img": "https://image.api.playstation.com/cdn/UP0002/CUSA04762_00/LHc8qTz6JmLL46EdNWYEvqZEsIEYCbhy.png",
     "name": "COD infinite warfare"
+  },
+  {
+    "im": "https://cdn.cloudflare.steamstatic.com/steam/apps/1774580/capsule_616x353.jpg?t=1684344870",
+    "name": "Star Wars: Jedi Survivors"
   }
 ]
