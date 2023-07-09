@@ -1,4 +1,10 @@
-import { createContext } from 'react';
+/* eslint-disable react/prop-types */
+import { createContext, useContext } from 'react';
 
-const MyContext = createContext();
-export default MyContext;
+const DesignContext = createContext();
+
+export function DesignContextProvider({ children }) {
+  return <DesignContext.Provider>{children}</DesignContext.Provider>;
+}
+
+export const useDesignContext = () => useContext(DesignContext);
